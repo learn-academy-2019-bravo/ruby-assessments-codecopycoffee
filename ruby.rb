@@ -66,17 +66,15 @@ class Animal
     @color = color
   end
 
-  def legs
-    @legs = 4
+  def get_color
+    @color
   end
 
-  def get_legs
-    @legs
+  def legs
+    @legs = 4
   end
 end
 
 #### 6b.  Create a new instance of an Animal with a brown color.  Return how many legs the animal has.
 dog = Animal.new :brown
-dog.get_legs
-
-#This code isn't working but I don't understand class enough to be able to figure out why
+dog.legs

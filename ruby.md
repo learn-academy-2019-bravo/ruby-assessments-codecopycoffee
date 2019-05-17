@@ -93,3 +93,5 @@ Source: https://ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/instancevars.htm
 
 
 Choose one of these resources and go through the material (not for hours, only looking for around 10min of your time) then come back here and list a few new things you learned about Ruby.
+
+"Ancestor classes" is a way of referring to multiple generations of parent classes. If we only want to list methods defined for the current class and not inherited from the ancestor class, we can use Classname.instance_methods(false)
