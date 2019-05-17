@@ -6,7 +6,7 @@ Try your best to answer each question on your own before looking up the answer o
 #### 1. What is a method in Ruby? How is it different or similar to functions in JavaScript?
 
 
-#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance. 
+#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance.
 
 
 [Your Answer]
@@ -18,11 +18,12 @@ Try your best to answer each question on your own before looking up the answer o
 #### 3. What is rspec and what is the general process for writing tests in RSpec?
 
 //Your Answer
+RSPEC is a testing framework for ruby. The general process is to write the test, make it fail, write the code, and rerun the test (hopefully passing this time). This is called red green refactor.
 
 //Googled Answer
 
 
-#### 4. Name three possible non-inheritance relationships between ruby objects? 
+#### 4. Name three possible non-inheritance relationships between ruby objects?
 
 //Your Answer
 
